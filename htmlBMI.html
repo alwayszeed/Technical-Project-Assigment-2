@@ -1,0 +1,41 @@
+<!--
+Author: Yazid Nur Yaqin
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssBMI.css">
+    <script src="javascriptBMI.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">  
+        <h1>Check your BMI</h1>
+        <p>Enter your weight and height below to check your BMI result</p>
+        <label>
+            <p>Put your weight in here(KG)</p>
+            <input id="h-input" type="number" placeholder="60">
+        </label>        
+        <label>
+            <p>Put your height in here(CM)</p>
+            <input id="w-input" type="number" placeholder="167">
+        </label>            
+        <button type="submit" onclick="Calculate()">Calculate BMI</button>
+            
+        <div class="bmi-value" class="status">
+            <p>BMI Value:</p>
+            <div id="bmi-output"></div>
+            <p>Status :</p>
+            <div id="bmi-status"></div> 
+        </div>
+        
+             
+    </div>
+    
+</body>
+</html>
